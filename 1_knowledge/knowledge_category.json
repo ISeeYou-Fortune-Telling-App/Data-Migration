@@ -1,0 +1,46 @@
+{
+    "knowledge_category": [
+        {
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Cung Hoàng Đạo",
+            "description": "Thông tin về tính cách, tình duyên và sự nghiệp theo 12 cung hoàng đạo",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Nhân Tướng Học",
+            "description": "Giải mã tính cách và vận mệnh qua khuôn mặt, dáng người",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Ngũ Hành",
+            "description": "Phân tích sự tương sinh, tương khắc của Kim - Mộc - Thủy - Hỏa - Thổ",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Chỉ Tay",
+            "description": "Xem vận mệnh, tình duyên và sự nghiệp qua đường chỉ tay",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Tarot",
+            "description": "Giải bài tarot để tìm lời khuyên và định hướng cho cuộc sống",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "category_id": "6f6d3003-cad8-4805-8e04-2170d12e5bcf",
+            "name": "Khác",
+            "description": "Các hình thức xem bói và dự đoán khác",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        }
+    ]
+}

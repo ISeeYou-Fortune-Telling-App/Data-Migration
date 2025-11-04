@@ -1,0 +1,118 @@
+{
+    "item_category": [
+        {
+            "item_id": "b2fbe023-2f7e-4c75-8a43-7566615ddee6",
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "f47e4e89-c5b4-4e4c-8f3a-1d6e8b9c0a2d",
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "e89d3f5a-6b2c-4a1e-9f8b-3c7d4e5a6b1c",
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "d5c8b4e3-7a9f-4c2d-8e1b-5f6a9c3d7e2a",
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "c2a7f9e4-8d3b-4f5c-9a2e-6b8d1c4e7f3a",
+            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "a3f8e2d5-9c4b-4e6f-8a1d-7c9e2b5f8a4c",
+            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "b9e1f3a6-7d2c-4f5e-9b8a-8d1c3e6f9b2a",
+            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "c8d2a4f7-6e3b-4c1f-8a9e-9c2d4f7a8b3e",
+            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "d7c3b5e8-5f4a-4d2e-9b1c-7e8f3a9c2d4b",
+            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "e6d4c7f9-4e5b-4c3a-8d2f-6f9a4b8e1c5d",
+            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "f5e8d9a2-3c6b-4f4d-9e1a-5a7c8d9f2b6e",
+            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "a4f9e1b3-2d7c-4e5a-8f9b-4c6d7e8a9f1b",
+            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "b3e8d2c4-1c6a-4f7e-9d8b-3e5f6a7c8d9e",
+            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "c2d7f3e5-9b4a-4e6c-8f1d-2a4e5f6c7d8a",
+            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "1e664360-9d6f-48ad-b680-f0d4cda9b7de",
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "ad02e0f0-9909-4e23-8f7b-d1529eec4923",
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "a0ba013b-7067-4ec8-aecb-46ab8e8dcc90",
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "2afeeb7c-5ae5-49e6-87db-6d850d026710",
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        },
+        {
+            "item_id": "9c06e0f2-2c54-477d-b0f0-848df4bc6821",
+            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+            "created_at": "2023-01-01 00:00:00.000",
+            "updated_at": "2023-01-01 00:00:00.000"
+        }
+    ]
+}
