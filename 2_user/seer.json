@@ -1,0 +1,2199 @@
+{
+    "enum": {
+        "role": {
+            "ADMIN": 0,
+            "SEER": 1,
+            "UNVERIFIED_SEER": 2,
+            "GUEST": 3,
+            "CUSTOMER": 4
+        },
+        "status": {
+            "ACTIVE": 0,
+            "INACTIVE": 1,
+            "VERIFIED": 2,
+            "UNVERIFIED": 3,
+            "BLOCKED": 4
+        },
+        "status_seer_package": {
+            "AVAILABLE": 0,
+            "REJECTED": 1,
+            "HAVE_REPORT": 2,
+            "HIDDEN": 3
+        },
+        "certificate_status": {
+            "PENDING": 0,
+            "APPROVED": 1,
+            "REJECTED": 2,
+            "EXPIRED": 3
+        }
+    },
+    "user": [
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440021",
+            "role": 1,
+            "email": "thayboivananh@gmail.com",
+            "phone": "+84967654321",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Bùi Văn Anh",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/dcbd7184-dc42-4cc0-90d8-36702530e092.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/d6016807-b186-4f9b-9fb8-52ccbbb32e1d.png",
+            "profile_description": "Thầy bói với hơn 15 năm kinh nghiệm trong lĩnh vực xem bói Tarot, cung hoàng đạo và nhân tướng học. Đã tư vấn cho hơn 5000 khách hàng về tình duyên, sự nghiệp và gia đạo.",
+            "birth_date": "1980-08-15 14:30:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-03-10 08:20:00.000",
+                "updated_at": "2025-11-02 16:45:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-10 08:25:00.000",
+                    "updated_at": "2025-03-10 08:25:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-10 08:25:00.000",
+                    "updated_at": "2025-03-10 08:25:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-10 08:25:00.000",
+                    "updated_at": "2025-03-10 08:25:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440004",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-04-18 15:10:00.000",
+                    "updated_at": "2025-04-18 15:10:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440005",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-05-20 14:25:00.000",
+                    "updated_at": "2025-05-20 14:25:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Tarot Quốc Tế - International Tarot Certification",
+                    "certificate_description": "Chứng chỉ hành nghề Tarot được cấp bởi Hiệp Hội Tarot Quốc Tế (ITA). Đã hoàn thành khóa học chuyên sâu về 78 lá bài Tarot, bao gồm Major Arcana và Minor Arcana, cùng các kỹ thuật trải bài nâng cao.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2018-06-15 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ, được cấp bởi tổ chức uy tín",
+                    "issued_by": "Hiệp Hội Tarot Quốc Tế",
+                    "issued_at": "2018-06-15 00:00:00.000",
+                    "decision_date": "2025-01-15 09:30:00.000",
+                    "created_at": "2025-01-10 14:20:00.000",
+                    "updated_at": "2025-01-15 09:30:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440001",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440001",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-10 14:20:00.000",
+                            "updated_at": "2025-01-10 14:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Chiêm Tinh Học Chuyên Nghiệp",
+                    "certificate_description": "Hoàn thành chương trình đào tạo chuyên sâu về chiêm tinh học phương Tây, bao gồm phân tích bản đồ sao sinh, 12 cung hoàng đạo, các hành tinh và khía cạnh chiêm tinh. Đã thực hành phân tích hơn 100 bản đồ sao thực tế.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2019-09-20 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được xác thực, đầy đủ thông tin",
+                    "issued_by": "Viện Chiêm Tinh Học Việt Nam",
+                    "issued_at": "2019-09-20 00:00:00.000",
+                    "decision_date": "2025-02-08 10:45:00.000",
+                    "created_at": "2025-02-05 16:30:00.000",
+                    "updated_at": "2025-02-08 10:45:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440002",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440002",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-05 16:30:00.000",
+                            "updated_at": "2025-02-05 16:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Bằng Nhân Tướng Học Cổ Truyền",
+                    "certificate_description": "Đã hoàn thành khóa học nhân tướng học cổ truyền Á Đông, nghiên cứu về 12 cung vị, 5 quan tướng, đọc vận mệnh qua đường nét khuôn mặt. Kế thừa và phát triển học thuyết nhân tướng truyền thống.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2017-03-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ, được kiểm chứng",
+                    "issued_by": "Trung Tâm Nghiên Cứu Nhân Tướng Học Đông Phương",
+                    "issued_at": "2017-03-10 00:00:00.000",
+                    "decision_date": "2025-03-12 11:20:00.000",
+                    "created_at": "2025-03-08 09:15:00.000",
+                    "updated_at": "2025-03-12 11:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440003",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440003",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-08 09:15:00.000",
+                            "updated_at": "2025-03-08 09:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440004",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Phong Thủy Ngũ Hành",
+                    "certificate_description": "Chương trình đào tạo về phong thủy ngũ hành, bao gồm lý thuyết âm dương ngũ hành, phân tích mệnh, chọn hướng và bố trí không gian theo phong thủy truyền thống. Đã tư vấn thành công cho hơn 200 trường hợp.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2020-11-05 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được phê duyệt, đủ tiêu chuẩn",
+                    "issued_by": "Học Viện Phong Thủy Á Châu",
+                    "issued_at": "2020-11-05 00:00:00.000",
+                    "decision_date": "2025-04-18 15:10:00.000",
+                    "created_at": "2025-04-15 13:40:00.000",
+                    "updated_at": "2025-04-18 15:10:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440004",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440004",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-15 13:40:00.000",
+                            "updated_at": "2025-04-15 13:40:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440005",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Xem Chỉ Tay - Palmistry",
+                    "certificate_description": "Khóa học chuyên sâu về xem chỉ tay (chiromancy), phân tích các đường chỉ tay, hình dạng bàn tay, vân tay để đọc vận mệnh và tính cách. Đã nghiên cứu và thực hành trên hơn 500 trường hợp.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2021-05-22 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ đạt chuẩn, được phê duyệt",
+                    "issued_by": "Viện Nghiên Cứu Chỉ Tay Quốc Tế",
+                    "issued_at": "2021-05-22 00:00:00.000",
+                    "decision_date": "2025-05-20 14:25:00.000",
+                    "created_at": "2025-05-18 10:15:00.000",
+                    "updated_at": "2025-05-20 14:25:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440005",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440005",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-18 10:15:00.000",
+                            "updated_at": "2025-05-18 10:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440006",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Tâm Linh Học Ứng Dụng",
+                    "certificate_description": "Chương trình đào tạo về tâm linh học ứng dụng, kết hợp giữa tâm lý học hiện đại và các phương pháp tâm linh cổ truyền để tư vấn và hỗ trợ khách hàng trong cuộc sống.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2024-08-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 0,
+                    "decision_reason": null,
+                    "issued_by": "Viện Nghiên Cứu Tâm Linh Ứng Dụng",
+                    "issued_at": "2024-08-10 00:00:00.000",
+                    "decision_date": null,
+                    "created_at": "2025-08-15 16:45:00.000",
+                    "updated_at": "2025-08-15 16:45:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440006",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440006",
+                            "category_id": "6f6d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-08-15 16:45:00.000",
+                            "updated_at": "2025-08-15 16:45:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440007",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "certificate_name": "Chứng Chỉ Numerology - Thần Số Học",
+                    "certificate_description": "Khóa học về thần số học (Numerology), phân tích ý nghĩa các con số trong cuộc đời, tính toán số chủ đạo, số đường đời, và các con số quan trọng khác để tư vấn về vận mệnh và tính cách.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/4f6bbcb3-0373-437c-ab63-139aed13a275.png",
+                    "received_date": "2024-09-28 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 2,
+                    "decision_reason": "Chứng chỉ chưa được xác thực bởi tổ chức cấp phát, cần bổ sung giấy tờ chứng minh",
+                    "issued_by": "Học Viện Thần Số Học Trực Tuyến",
+                    "issued_at": "2024-09-28 00:00:00.000",
+                    "decision_date": "2025-10-05 09:20:00.000",
+                    "created_at": "2025-10-01 14:30:00.000",
+                    "updated_at": "2025-10-05 09:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440007",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440007",
+                            "category_id": "6f6d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-10-01 14:30:00.000",
+                            "updated_at": "2025-10-01 14:30:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Bài Tarot Tổng Quan - Tìm Hướng Đi Cho Cuộc Sống",
+                    "package_content": "Phiên xem bài Tarot tổng quan giúp bạn:\n\n✨ Hiểu rõ tình hình hiện tại của bản thân\n✨ Nhận diện những cơ hội và thách thức sắp tới\n✨ Tìm ra hướng đi phù hợp cho các quyết định quan trọng\n✨ Giải đáp thắc mắc về tình duyên, sự nghiệp, gia đạo\n\nPhiên tư vấn bao gồm:\n- Trải bài Tarot chuyên sâu với 10 lá bài\n- Giải nghĩa chi tiết từng lá bài và tổng quan cả spread\n- Tư vấn cá nhân hóa dựa trên năng lượng hiện tại\n- Hướng dẫn cách ứng dụng lời khuyên vào thực tế\n\nThời gian: 45 phút | Tư vấn qua video call hoặc trực tiếp",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 45,
+                    "price": 299000.0,
+                    "service_fee_amount": 29900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 127,
+                    "dislike_count": 3,
+                    "comment_count": 45,
+                    "created_at": "2025-03-15 10:30:00.000",
+                    "updated_at": "2025-11-01 14:20:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440001",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440001",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-15 10:30:00.000",
+                            "updated_at": "2025-03-15 10:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Phân Tích Cung Hoàng Đạo & Bản Đồ Sao - Khám Phá Bản Thân",
+                    "package_content": "Phân tích chuyên sâu về cung hoàng đạo và bản đồ sao cá nhân:\n\n🌟 Phân tích cung Mặt Trời, Mặt Trăng, Sao Kim\n🌟 Giải mã tính cách, điểm mạnh và điểm yếu\n🌟 Dự đoán xu hướng vận mệnh trong năm\n🌟 Tư vấn tình duyên và hợp tuổi\n🌟 Định hướng sự nghiệp phù hợp với bản mệnh\n\nBạn sẽ nhận được:\n- Bản đồ sao sinh chi tiết (Birth Chart)\n- Phân tích 12 nhà chiêm tinh\n- Báo cáo PDF 15-20 trang\n- Buổi tư vấn trực tiếp để giải đáp thắc mắc\n\nYêu cầu: Cung cấp ngày, giờ và địa điểm sinh chính xác\nThời gian: 60 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 60,
+                    "price": 499000.0,
+                    "service_fee_amount": 49900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 98,
+                    "dislike_count": 1,
+                    "comment_count": 32,
+                    "created_at": "2025-04-20 15:45:00.000",
+                    "updated_at": "2025-10-28 11:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440002",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440002",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-20 15:45:00.000",
+                            "updated_at": "2025-04-20 15:45:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Tướng Toàn Diện - Giải Mã Vận Mệnh Qua Khuôn Mặt",
+                    "package_content": "Phân tích nhân tướng học toàn diện giúp bạn hiểu về:\n\n👤 Tính cách và phẩm chất bản thân qua đặc điểm khuôn mặt\n👤 Vận mệnh và xu hướng phát triển trong cuộc đời\n👤 Tình duyên, hôn nhân và mối quan hệ\n👤 Sự nghiệp và khả năng tài chính\n👤 Sức khỏe và tuổi thọ\n\nDịch vụ bao gồm:\n- Phân tích khuôn mặt 5 quan (mắt, mũi, miệng, tai, lông mày)\n- Xem tướng 12 cung vị\n- Đọc vận mệnh qua đường nét khuôn mặt\n- Tư vấn phong thủy cá nhân và màu sắc hợp mệnh\n- Ghi âm buổi tư vấn để bạn xem lại\n\nYêu cầu: Gửi trước ảnh chân dung rõ nét (chụp từ nhiều góc độ)\nThời gian: 45 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 45,
+                    "price": 399000.0,
+                    "service_fee_amount": 39900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 156,
+                    "dislike_count": 2,
+                    "comment_count": 67,
+                    "created_at": "2025-05-10 09:15:00.000",
+                    "updated_at": "2025-11-03 16:25:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440003",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440003",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-10 09:15:00.000",
+                            "updated_at": "2025-05-10 09:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440004",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Combo Toàn Diện: Tarot + Cung Hoàng Đạo + Nhân Tướng",
+                    "package_content": "Gói combo đặc biệt kết hợp 3 phương pháp xem bói để có cái nhìn toàn diện nhất:\n\n🎴 TAROT: Trải bài về tình hình hiện tại và tương lai gần\n⭐ CUNG HOÀNG ĐẠO: Phân tích bản đồ sao và vận mệnh\n👁️ NHÂN TƯỚNG HỌC: Đọc vận mệnh qua khuôn mặt\n\nƯu điểm của gói combo:\n✅ Tiết kiệm 200.000đ so với mua riêng lẻ\n✅ Nhìn nhận vấn đề từ nhiều góc độ khác nhau\n✅ Lời khuyên chính xác và toàn diện hơn\n✅ Tặng kèm báo cáo tổng hợp PDF chi tiết\n✅ Hỗ trợ tư vấn sau 7 ngày qua chat\n\nPhù hợp cho:\n- Những quyết định quan trọng trong đời (chuyển việc, kết hôn, đầu tư)\n- Muốn hiểu sâu về bản thân và định hướng tương lai\n- Cần giải đáp nhiều vấn đề cùng lúc\n\nThời gian: 90 phút | Có thể chia làm 2 buổi",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 90,
+                    "price": 899000.0,
+                    "service_fee_amount": 89900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 213,
+                    "dislike_count": 4,
+                    "comment_count": 89,
+                    "created_at": "2025-06-01 11:20:00.000",
+                    "updated_at": "2025-11-04 09:40:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440004",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440004",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-06-01 11:20:00.000",
+                            "updated_at": "2025-06-01 11:20:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440005",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440004",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-06-01 11:20:00.000",
+                            "updated_at": "2025-06-01 11:20:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440006",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440004",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-06-01 11:20:00.000",
+                            "updated_at": "2025-06-01 11:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440005",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Bài Tarot Tình Duyên - Tìm Hiểu Mối Quan Hệ",
+                    "package_content": "Phiên xem bài Tarot chuyên sâu về tình duyên và các mối quan hệ:\n\n💕 Phân tích tình trạng mối quan hệ hiện tại\n💕 Nhận biết cảm xúc thật sự của đối phương\n💕 Dự đoán xu hướng phát triển của tình cảm\n💕 Tư vấn cách cải thiện và vượt qua khó khăn\n\nNội dung buổi tư vấn:\n- Trải bài Love Spread với 7 lá bài\n- Phân tích năng lượng tình cảm của cả hai phía\n- Xem xét các yếu tố ảnh hưởng đến mối quan hệ\n- Lời khuyên cụ thể để cải thiện tình cảm\n- Hướng dẫn thời điểm tốt cho các quyết định quan trọng\n\nThời gian: 40 phút | Tư vấn qua video call hoặc trực tiếp",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 40,
+                    "price": 279000.0,
+                    "service_fee_amount": 27900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 145,
+                    "dislike_count": 2,
+                    "comment_count": 58,
+                    "created_at": "2025-02-14 10:30:00.000",
+                    "updated_at": "2025-10-20 14:15:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440007",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440005",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-14 10:30:00.000",
+                            "updated_at": "2025-02-14 10:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440006",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Bài Tarot Sự Nghiệp - Định Hướng Tương Lai",
+                    "package_content": "Phiên xem bài Tarot chuyên về sự nghiệp và công việc:\n\n🎯 Đánh giá hiện trạng công việc hiện tại\n🎯 Nhận diện cơ hội thăng tiến và phát triển\n🎯 Xem xét khả năng chuyển việc hoặc khởi nghiệp\n🎯 Tư vấn thời điểm tốt cho các quyết định quan trọng\n🎯 Phân tích mối quan hệ với đồng nghiệp và cấp trên\n\nBạn sẽ nhận được:\n- Trải bài Career Path Spread\n- Phân tích điểm mạnh và cơ hội nghề nghiệp\n- Cảnh báo về rủi ro và thách thức sắp tới\n- Lời khuyên cụ thể về hướng đi sự nghiệp\n\nThời gian: 45 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 45,
+                    "price": 329000.0,
+                    "service_fee_amount": 32900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 112,
+                    "dislike_count": 1,
+                    "comment_count": 39,
+                    "created_at": "2025-03-22 09:15:00.000",
+                    "updated_at": "2025-09-18 16:40:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440008",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440006",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-22 09:15:00.000",
+                            "updated_at": "2025-03-22 09:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440007",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Chỉ Tay - Đọc Vận Mệnh Qua Lòng Bàn Tay",
+                    "package_content": "Phân tích chỉ tay (xem bói chỉ tay) để hiểu về cuộc đời:\n\n✋ Đọc đường sinh mệnh, đường sự nghiệp, đường tình duyên\n✋ Phân tích vân tay và ý nghĩa\n✋ Xem xét sức khỏe và tuổi thọ\n✋ Đánh giá tính cách qua hình dạng bàn tay\n✋ Dự đoán những sự kiện quan trọng trong cuộc đời\n\nDịch vụ bao gồm:\n- Đọc 5 đường chính trên lòng bàn tay\n- Phân tích hình dạng ngón tay và ý nghĩa\n- Xem vân tay và tính cách\n- Tư vấn về những năm quan trọng trong đời\n- File ảnh chú thích chi tiết về lòng bàn tay\n\nYêu cầu: Gửi ảnh lòng bàn tay rõ nét (cả hai tay)\nThời gian: 35 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 35,
+                    "price": 249000.0,
+                    "service_fee_amount": 24900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 89,
+                    "dislike_count": 3,
+                    "comment_count": 27,
+                    "created_at": "2025-04-10 14:20:00.000",
+                    "updated_at": "2025-08-15 11:25:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440009",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440007",
+                            "category_id": "4c4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-10 14:20:00.000",
+                            "updated_at": "2025-04-10 14:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440008",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Tư Vấn Phong Thủy Cá Nhân - Hợp Mệnh Hợp Tuổi",
+                    "package_content": "Tư vấn phong thủy và ngũ hành phù hợp với bản mệnh:\n\n🏠 Tư vấn hướng nhà, hướng bàn làm việc hợp phong thủy\n🏠 Chọn màu sắc, vật phẩm phù hợp với mệnh\n🏠 Xem ngày tốt cho các sự kiện quan trọng\n🏠 Phân tích ngũ hành và cách cân bằng\n🏠 Tư vấn cây phong thủy và vật phẩm may mắn\n\nNội dung tư vấn:\n- Xác định mệnh ngũ hành của bạn\n- Phân tích mệnh và cách hóa giải\n- Tư vấn màu sắc, hướng nhà phù hợp\n- Chọn ngày tốt cho khai trương, cưới hỏi, chuyển nhà\n- Hướng dẫn bố trí không gian sống hợp phong thủy\n\nYêu cầu: Thông tin ngày giờ sinh, địa chỉ nhà/văn phòng\nThời gian: 50 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 50,
+                    "price": 449000.0,
+                    "service_fee_amount": 44900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 167,
+                    "dislike_count": 2,
+                    "comment_count": 71,
+                    "created_at": "2025-05-08 11:45:00.000",
+                    "updated_at": "2025-10-12 15:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440010",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440008",
+                            "category_id": "3a3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-08 11:45:00.000",
+                            "updated_at": "2025-05-08 11:45:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440009",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Tướng Mắt - Cửa Sổ Tâm Hồn",
+                    "package_content": "Phân tích nhân tướng học qua đôi mắt - cửa sổ tâm hồn:\n\n👁️ Đọc tính cách qua hình dạng đôi mắt\n👁️ Phân tích vận mệnh tình duyên qua mi mắt\n👁️ Xem tài lộc và sự nghiệp qua ánh nhìn\n👁️ Đánh giá sức khỏe qua màu sắc mắt\n👁️ Nhận biết tính cách và con người thật\n\nDịch vụ bao gồm:\n- Phân tích chi tiết hình dạng mắt\n- Đọc vận mệnh qua đôi mắt\n- Tư vấn cách cải thiện vận khí qua makeup mắt\n- Nhận xét về tính cách và khả năng tương thích\n- Ghi âm buổi tư vấn\n\nYêu cầu: Ảnh cận mặt rõ nét, đặc biệt là vùng mắt\nThời gian: 30 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 30,
+                    "price": 199000.0,
+                    "service_fee_amount": 19900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 78,
+                    "dislike_count": 1,
+                    "comment_count": 22,
+                    "created_at": "2025-06-15 16:30:00.000",
+                    "updated_at": "2025-07-25 09:50:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440011",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440009",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-06-15 16:30:00.000",
+                            "updated_at": "2025-06-15 16:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440010",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Tư Vấn Hợp Tuổi - Chọn Ngày Tốt Cưới Hỏi",
+                    "package_content": "Tư vấn chuyên sâu về hợp tuổi và chọn ngày tốt cho đám cưới:\n\n💒 Xem hợp tuổi giữa hai người\n💒 Phân tích tính cách và khả năng hòa hợp\n💒 Chọn ngày giờ tốt cho lễ ăn hỏi, đám cưới\n💒 Tư vấn hướng nhà, hướng giường hợp phong thủy\n💒 Dự đoán vận mệnh hôn nhân trong tương lai\n\nNội dung tư vấn:\n- Phân tích mệnh ngũ hành của cả hai\n- Xem xét độ tương hợp về tử vi\n- Chọn 3-5 ngày tốt nhất cho hôn lễ\n- Tư vấn màu sắc trang trí phù hợp\n- Hướng dẫn cách hóa giải xung khắc (nếu có)\n- Báo cáo chi tiết kèm lịch tốt xấu\n\nYêu cầu: Ngày giờ sinh của cả hai người\nThời gian: 55 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 55,
+                    "price": 549000.0,
+                    "service_fee_amount": 54900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 201,
+                    "dislike_count": 3,
+                    "comment_count": 92,
+                    "created_at": "2025-07-20 13:10:00.000",
+                    "updated_at": "2025-10-05 17:20:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440012",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440010",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-07-20 13:10:00.000",
+                            "updated_at": "2025-07-20 13:10:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440013",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440010",
+                            "category_id": "3a3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-07-20 13:10:00.000",
+                            "updated_at": "2025-07-20 13:10:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440011",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Bài Tarot Tài Chính - Quản Lý Tiền Bạc",
+                    "package_content": "Phiên xem bài Tarot chuyên về tài chính và tiền bạc:\n\n💰 Đánh giá tình hình tài chính hiện tại\n💰 Dự đoán cơ hội đầu tư và kinh doanh\n💰 Cảnh báo rủi ro tài chính sắp tới\n💰 Tư vấn cách quản lý và tăng trưởng tài sản\n💰 Xem xét khả năng vay mượn và đầu tư\n\nBạn sẽ nhận được:\n- Trải bài Money Spread chuyên sâu\n- Phân tích nguồn thu nhập chính và phụ\n- Nhận diện cơ hội tài chính trong 6-12 tháng tới\n- Lời khuyên về đầu tư và tiết kiệm\n- Hướng dẫn tránh rủi ro và thất thoát\n\nThời gian: 40 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 40,
+                    "price": 319000.0,
+                    "service_fee_amount": 31900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 134,
+                    "dislike_count": 5,
+                    "comment_count": 48,
+                    "created_at": "2025-08-12 10:25:00.000",
+                    "updated_at": "2025-09-28 14:45:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440014",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440011",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-08-12 10:25:00.000",
+                            "updated_at": "2025-08-12 10:25:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440012",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Đặt Tên Con - Hợp Mệnh Hợp Tuổi Bố Mẹ",
+                    "package_content": "Tư vấn đặt tên con dựa trên ngũ hành và tử vi:\n\n👶 Phân tích mệnh ngũ hành của bé\n👶 Xem xét hợp tuổi với bố mẹ\n👶 Chọn tên theo âm dương ngũ hành\n👶 Phân tích ý nghĩa và nguồn gốc tên\n👶 Tư vấn tên chính và tên phụ (nếu có)\n\nDịch vụ bao gồm:\n- Phân tích mệnh bé và bố mẹ\n- Đề xuất 5-7 cái tên phù hợp\n- Giải thích ý nghĩa từng tên\n- Phân tích ngũ hành và độ tương hợp\n- Tư vấn cách gọi tên hàng ngày\n- File PDF chi tiết về các tên đề xuất\n\nYêu cầu: Ngày giờ sinh của bé và bố mẹ, họ gia đình\nThời gian: 50 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 50,
+                    "price": 399000.0,
+                    "service_fee_amount": 39900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 188,
+                    "dislike_count": 2,
+                    "comment_count": 76,
+                    "created_at": "2025-09-05 15:40:00.000",
+                    "updated_at": "2025-10-30 11:15:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440015",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440012",
+                            "category_id": "3a3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-09-05 15:40:00.000",
+                            "updated_at": "2025-09-05 15:40:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440016",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440012",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-09-05 15:40:00.000",
+                            "updated_at": "2025-09-05 15:40:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440013",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Xem Vận Năm Mới - Dự Đoán 12 Tháng Sắp Tới",
+                    "package_content": "Phân tích vận mệnh cho cả năm mới sắp đến:\n\n🎊 Dự đoán vận mệnh 12 tháng trong năm\n🎊 Phân tích các tháng tốt và tháng xấu\n🎊 Tư vấn tình duyên, sự nghiệp, tài lộc, sức khỏe\n🎊 Chọn ngày tốt cho các sự kiện quan trọng\n🎊 Hướng dẫn cách hóa giải và tăng cường vận khí\n\nBạn sẽ nhận được:\n- Bản phân tích chi tiết 12 tháng\n- Lịch tốt xấu cả năm (PDF)\n- Tư vấn màu sắc may mắn từng tháng\n- Hướng đi tốt cho công việc và tình duyên\n- Phân tích cung hoàng đạo và Tarot kết hợp\n- Buổi tư vấn trực tiếp để giải đáp thắc mắc\n\nThời gian: 70 phút | Gói đặc biệt cuối năm",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 70,
+                    "price": 649000.0,
+                    "service_fee_amount": 64900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 256,
+                    "dislike_count": 4,
+                    "comment_count": 118,
+                    "created_at": "2025-11-20 09:30:00.000",
+                    "updated_at": "2025-11-02 16:50:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440017",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440013",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-11-20 09:30:00.000",
+                            "updated_at": "2025-11-20 09:30:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440018",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440013",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-11-20 09:30:00.000",
+                            "updated_at": "2025-11-20 09:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440014",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440021",
+                    "package_title": "Tư Vấn Chọn Ngày Khai Trương - Kinh Doanh Phát Đạt",
+                    "package_content": "Tư vấn chọn ngày giờ tốt cho khai trương kinh doanh:\n\n🏪 Chọn ngày giờ khai trương hợp tuổi chủ\n🏪 Xem hướng cửa hàng/văn phòng hợp phong thủy\n🏪 Tư vấn màu sắc và vật phẩm may mắn\n🏪 Phân tích vận kinh doanh trong 12 tháng đầu\n🏪 Hướng dẫn cách bố trí không gian kinh doanh\n\nNội dung tư vấn:\n- Phân tích mệnh chủ doanh nghiệp\n- Chọn 3 ngày tốt nhất để khai trương\n- Xác định giờ hoàng đạo khai trương\n- Tư vấn hướng đặt bàn thờ thần tài\n- Chọn màu sắc và cây phong thủy\n- Dự đoán vận kinh doanh năm đầu\n\nYêu cầu: Ngày sinh chủ, địa chỉ cửa hàng, ngành nghề\nThời gian: 45 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 45,
+                    "price": 479000.0,
+                    "service_fee_amount": 47900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 143,
+                    "dislike_count": 3,
+                    "comment_count": 61,
+                    "created_at": "2025-01-18 11:20:00.000",
+                    "updated_at": "2025-10-22 15:35:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440019",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440014",
+                            "category_id": "3a3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-18 11:20:00.000",
+                            "updated_at": "2025-01-18 11:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-03-10 08:20:00.000",
+            "updated_at": "2025-11-02 16:45:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440022",
+            "role": 1,
+            "email": "cohoailinh@gmail.com",
+            "phone": "+84903456789",
+            "gender": "Nữ",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Cô Nguyễn Thị Hoa Linh",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-002.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-002.png",
+            "profile_description": "Chuyên gia về Tarot và Cung Hoàng Đạo với 12 năm kinh nghiệm. Tốt nghiệp khóa học Tarot quốc tế và có chứng chỉ hành nghề Chiêm Tinh học. Đã tư vấn cho hơn 3000 khách hàng về tình duyên và sự nghiệp.",
+            "birth_date": "1988-03-20 10:15:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-02-15 09:30:00.000",
+                "updated_at": "2025-11-01 10:20:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440101",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-15 09:35:00.000",
+                    "updated_at": "2025-02-15 09:35:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440102",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-15 09:35:00.000",
+                    "updated_at": "2025-02-15 09:35:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440101",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "certificate_name": "Chứng Chỉ Tarot Reader Chuyên Nghiệp",
+                    "certificate_description": "Hoàn thành khóa đào tạo Tarot Reader chuyên nghiệp, nắm vững 78 lá bài và các spread phức tạp. Chuyên sâu về tư vấn tình duyên và các mối quan hệ.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-002.png",
+                    "received_date": "2019-04-12 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ, đạt chuẩn quốc tế",
+                    "issued_by": "Học Viện Tarot Việt Nam",
+                    "issued_at": "2019-04-12 00:00:00.000",
+                    "decision_date": "2025-02-20 10:15:00.000",
+                    "created_at": "2025-02-18 14:30:00.000",
+                    "updated_at": "2025-02-20 10:15:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440101",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440101",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-18 14:30:00.000",
+                            "updated_at": "2025-02-18 14:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440102",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "certificate_name": "Bằng Chiêm Tinh Học Cơ Bản",
+                    "certificate_description": "Hoàn thành chương trình đào tạo chiêm tinh học, phân tích 12 cung hoàng đạo và bản đồ sao sinh.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-002.png",
+                    "received_date": "2020-08-15 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được phê duyệt",
+                    "issued_by": "Trung Tâm Chiêm Tinh Á Đông",
+                    "issued_at": "2020-08-15 00:00:00.000",
+                    "decision_date": "2025-03-05 11:20:00.000",
+                    "created_at": "2025-03-02 09:15:00.000",
+                    "updated_at": "2025-03-05 11:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440102",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440102",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-02 09:15:00.000",
+                            "updated_at": "2025-03-02 09:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440101",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "package_title": "Tarot Tình Duyên - Tìm Hiểu Trái Tim Người Ấy",
+                    "package_content": "Phiên tư vấn Tarot chuyên sâu về tình duyên:\n\n💝 Phân tích cảm xúc và suy nghĩ của đối phương\n💝 Dự đoán xu hướng phát triển của mối quan hệ\n💝 Tư vấn cách tiếp cận và cải thiện tình cảm\n💝 Giải đáp thắc mắc về người thầm thương trộm nhớ\n\nThời gian: 35 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 35,
+                    "price": 249000.0,
+                    "service_fee_amount": 24900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 89,
+                    "dislike_count": 2,
+                    "comment_count": 34,
+                    "created_at": "2025-03-08 10:20:00.000",
+                    "updated_at": "2025-10-15 14:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440101",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440101",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-08 10:20:00.000",
+                            "updated_at": "2025-03-08 10:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440102",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440022",
+                    "package_title": "Phân Tích Cung Hoàng Đạo Cá Nhân",
+                    "package_content": "Xem chi tiết về tính cách và vận mệnh qua cung hoàng đạo:\n\n⭐ Phân tích cung Mặt Trời và Mặt Trăng\n⭐ Dự đoán xu hướng năm mới\n⭐ Tư vấn tình duyên hợp cung\n\nThời gian: 45 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 45,
+                    "price": 329000.0,
+                    "service_fee_amount": 32900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 67,
+                    "dislike_count": 1,
+                    "comment_count": 23,
+                    "created_at": "2025-04-12 11:15:00.000",
+                    "updated_at": "2025-09-20 16:40:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440102",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440102",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-12 11:15:00.000",
+                            "updated_at": "2025-04-12 11:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-02-15 09:30:00.000",
+            "updated_at": "2025-11-01 10:20:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440023",
+            "role": 1,
+            "email": "thayngocminh@gmail.com",
+            "phone": "+84912345678",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Trần Ngọc Minh",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-003.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-003.png",
+            "profile_description": "Chuyên gia Nhân Tướng Học và Xem Chỉ Tay với 18 năm kinh nghiệm. Kế thừa nghề từ gia đình với truyền thống 3 đời làm thầy bói. Đã tư vấn cho hơn 6000 khách hàng.",
+            "birth_date": "1975-11-08 08:45:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-01-20 10:15:00.000",
+                "updated_at": "2025-10-28 15:30:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440201",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-20 10:20:00.000",
+                    "updated_at": "2025-01-20 10:20:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440202",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-20 10:20:00.000",
+                    "updated_at": "2025-01-20 10:20:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440201",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "certificate_name": "Bằng Thạc Sĩ Nhân Tướng Học Cổ Truyền",
+                    "certificate_description": "Nghiên cứu sâu về nhân tướng học cổ truyền Việt Nam và Trung Quốc, chuyên về phân tích 12 cung vị và 5 quan tướng.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-003.png",
+                    "received_date": "2016-06-20 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Bằng cấp hợp lệ, uy tín cao",
+                    "issued_by": "Viện Nghiên Cứu Nhân Tướng Học Việt Nam",
+                    "issued_at": "2016-06-20 00:00:00.000",
+                    "decision_date": "2025-01-25 09:10:00.000",
+                    "created_at": "2025-01-22 14:20:00.000",
+                    "updated_at": "2025-01-25 09:10:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440201",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440201",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-22 14:20:00.000",
+                            "updated_at": "2025-01-22 14:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440202",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "certificate_name": "Chứng Chỉ Xem Chỉ Tay Chuyên Nghiệp",
+                    "certificate_description": "Hoàn thành khóa đào tạo xem chỉ tay (Palmistry), phân tích đường sinh mệnh, sự nghiệp, tình duyên qua lòng bàn tay.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-003.png",
+                    "received_date": "2018-09-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ",
+                    "issued_by": "Trung Tâm Nghiên Cứu Chỉ Tay Á Châu",
+                    "issued_at": "2018-09-10 00:00:00.000",
+                    "decision_date": "2025-02-01 10:30:00.000",
+                    "created_at": "2025-01-28 11:15:00.000",
+                    "updated_at": "2025-02-01 10:30:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440202",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440202",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-28 11:15:00.000",
+                            "updated_at": "2025-01-28 11:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440201",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "package_title": "Xem Tướng Mặt - Đọc Vận Mệnh Cuộc Đời",
+                    "package_content": "Phân tích toàn diện về vận mệnh qua khuôn mặt:\n\n👤 Xem 12 cung vị trên khuôn mặt\n👤 Phân tích 5 quan (mắt, mũi, miệng, tai, lông mày)\n👤 Dự đoán vận mệnh tương lai\n👤 Tư vấn cách cải thiện vận khí\n\nThời gian: 40 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 40,
+                    "price": 369000.0,
+                    "service_fee_amount": 36900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 142,
+                    "dislike_count": 3,
+                    "comment_count": 56,
+                    "created_at": "2025-02-05 09:20:00.000",
+                    "updated_at": "2025-10-18 14:15:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440201",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440201",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-05 09:20:00.000",
+                            "updated_at": "2025-02-05 09:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440202",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440023",
+                    "package_title": "Xem Chỉ Tay Toàn Diện",
+                    "package_content": "Đọc vận mệnh qua lòng bàn tay:\n\n✋ Phân tích 3 đường chính: Sinh mệnh, Sự nghiệp, Tình duyên\n✋ Xem vân tay và tính cách\n✋ Dự đoán các năm quan trọng\n\nThời gian: 30 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 30,
+                    "price": 229000.0,
+                    "service_fee_amount": 22900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 98,
+                    "dislike_count": 2,
+                    "comment_count": 41,
+                    "created_at": "2025-03-10 10:30:00.000",
+                    "updated_at": "2025-09-25 11:45:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440202",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440202",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-10 10:30:00.000",
+                            "updated_at": "2025-03-10 10:30:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-01-20 10:15:00.000",
+            "updated_at": "2025-10-28 15:30:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440024",
+            "role": 1,
+            "email": "colanhuong@gmail.com",
+            "phone": "+84987654321",
+            "gender": "Nữ",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Cô Lê Anh Hương",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-004.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-004.png",
+            "profile_description": "Chuyên gia Phong Thủy và Ngũ Hành với 10 năm kinh nghiệm. Tư vấn phong thủy nhà ở, văn phòng và chọn ngày tốt.",
+            "birth_date": "1990-05-15 14:20:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440024",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-03-25 11:10:00.000",
+                "updated_at": "2025-11-03 09:45:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440301",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440024",
+                    "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-25 11:15:00.000",
+                    "updated_at": "2025-03-25 11:15:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440301",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440024",
+                    "certificate_name": "Chứng Chỉ Phong Thủy Ngũ Hành Chuyên Nghiệp",
+                    "certificate_description": "Hoàn thành khóa đào tạo về phong thủy ngũ hành, phân tích mệnh, chọn hướng nhà, bố trí không gian theo phong thủy.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-004.png",
+                    "received_date": "2021-03-18 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ đạt chuẩn, được công nhận",
+                    "issued_by": "Viện Phong Thủy Việt Nam",
+                    "issued_at": "2021-03-18 00:00:00.000",
+                    "decision_date": "2025-03-28 10:20:00.000",
+                    "created_at": "2025-03-26 15:30:00.000",
+                    "updated_at": "2025-03-28 10:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440301",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440301",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-26 15:30:00.000",
+                            "updated_at": "2025-03-26 15:30:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440301",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440024",
+                    "package_title": "Tư Vấn Phong Thủy Nhà Ở - Hút Tài Lộc",
+                    "package_content": "Tư vấn phong thủy toàn diện:\n\n🏡 Xem hướng nhà hợp mệnh\n🏡 Bố trí phòng ngủ, làm việc\n🏡 Chọn màu sắc phong thủy\n\nThời gian: 50 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 50,
+                    "price": 429000.0,
+                    "service_fee_amount": 42900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 156,
+                    "dislike_count": 4,
+                    "comment_count": 62,
+                    "created_at": "2025-04-05 14:20:00.000",
+                    "updated_at": "2025-10-12 11:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440301",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440301",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-05 14:20:00.000",
+                            "updated_at": "2025-04-05 14:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-03-25 11:10:00.000",
+            "updated_at": "2025-11-03 09:45:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440025",
+            "role": 1,
+            "email": "thayphucthanh@gmail.com",
+            "phone": "+84935678901",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Võ Phúc Thành",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-005.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-005.png",
+            "profile_description": "Chuyên gia Tarot và Xem Chỉ Tay với 8 năm kinh nghiệm. Phong cách tư vấn tận tâm, dễ hiểu. Đã giúp đỡ hơn 1500 khách hàng tìm ra hướng đi đúng đắn.",
+            "birth_date": "1992-07-25 16:30:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-04-10 14:25:00.000",
+                "updated_at": "2025-10-20 11:15:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440401",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-04-10 14:30:00.000",
+                    "updated_at": "2025-04-10 14:30:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440402",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-04-10 14:30:00.000",
+                    "updated_at": "2025-04-10 14:30:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440401",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "certificate_name": "Chứng Chỉ Tarot Professional",
+                    "certificate_description": "Hoàn thành khóa đào tạo Tarot chuyên nghiệp, thành thạo các spread phức tạp và tư vấn tâm lý qua Tarot.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-005.png",
+                    "received_date": "2020-05-22 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ",
+                    "issued_by": "Trung Tâm Đào Tạo Tarot Quốc Tế",
+                    "issued_at": "2020-05-22 00:00:00.000",
+                    "decision_date": "2025-04-12 09:45:00.000",
+                    "created_at": "2025-04-11 10:20:00.000",
+                    "updated_at": "2025-04-12 09:45:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440401",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440401",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-11 10:20:00.000",
+                            "updated_at": "2025-04-11 10:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440402",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "certificate_name": "Chứng Chỉ Xem Chỉ Tay Cơ Bản",
+                    "certificate_description": "Khóa học cơ bản về xem chỉ tay, phân tích đường sinh mệnh và tình duyên.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-005.png",
+                    "received_date": "2022-11-15 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được phê duyệt",
+                    "issued_by": "Học Viện Chỉ Tay Việt Nam",
+                    "issued_at": "2022-11-15 00:00:00.000",
+                    "decision_date": "2025-04-15 11:20:00.000",
+                    "created_at": "2025-04-13 14:35:00.000",
+                    "updated_at": "2025-04-15 11:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440402",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440402",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-13 14:35:00.000",
+                            "updated_at": "2025-04-13 14:35:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440401",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "package_title": "Xem Tarot Giải Đáp Thắc Mắc",
+                    "package_content": "Phiên Tarot tư vấn nhanh:\n\n🎴 Giải đáp 1-2 câu hỏi cụ thể\n🎴 Tư vấn hướng đi ngắn hạn\n🎴 Phân tích tình huống hiện tại\n\nThời gian: 25 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 25,
+                    "price": 199000.0,
+                    "service_fee_amount": 19900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 76,
+                    "dislike_count": 1,
+                    "comment_count": 28,
+                    "created_at": "2025-04-18 10:15:00.000",
+                    "updated_at": "2025-10-08 15:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440401",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440401",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-18 10:15:00.000",
+                            "updated_at": "2025-04-18 10:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440402",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440025",
+                    "package_title": "Xem Chỉ Tay Cơ Bản",
+                    "package_content": "Phân tích chỉ tay:\n\n✋ Đọc đường sinh mệnh\n✋ Đường tình duyên\n✋ Đường sự nghiệp\n\nThời gian: 30 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 30,
+                    "price": 219000.0,
+                    "service_fee_amount": 21900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 54,
+                    "dislike_count": 2,
+                    "comment_count": 19,
+                    "created_at": "2025-05-20 11:40:00.000",
+                    "updated_at": "2025-09-15 14:25:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440402",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440402",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-20 11:40:00.000",
+                            "updated_at": "2025-05-20 11:40:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-04-10 14:25:00.000",
+            "updated_at": "2025-10-20 11:15:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440026",
+            "role": 1,
+            "email": "comylinh@gmail.com",
+            "phone": "+84923456789",
+            "gender": "Nữ",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Cô Phạm Mỹ Linh",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-006.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-006.png",
+            "profile_description": "Chuyên gia Cung Hoàng Đạo và Nhân Tướng với 14 năm kinh nghiệm. Tư vấn về tính cách, tình duyên và định hướng sự nghiệp. Đã tư vấn cho hơn 4500 khách hàng.",
+            "birth_date": "1985-12-10 09:45:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-02-28 10:20:00.000",
+                "updated_at": "2025-10-25 16:10:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440501",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-28 10:25:00.000",
+                    "updated_at": "2025-02-28 10:25:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440502",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-28 10:25:00.000",
+                    "updated_at": "2025-02-28 10:25:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440501",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "certificate_name": "Chứng Chỉ Chiêm Tinh Học Nâng Cao",
+                    "certificate_description": "Hoàn thành chương trình chiêm tinh học nâng cao, phân tích transit và progression, dự đoán xu hướng tương lai.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-006.png",
+                    "received_date": "2019-07-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ, uy tín",
+                    "issued_by": "Học Viện Chiêm Tinh Quốc Tế",
+                    "issued_at": "2019-07-10 00:00:00.000",
+                    "decision_date": "2025-03-02 09:15:00.000",
+                    "created_at": "2025-02-28 14:30:00.000",
+                    "updated_at": "2025-03-02 09:15:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440501",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440501",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-28 14:30:00.000",
+                            "updated_at": "2025-02-28 14:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440502",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "certificate_name": "Bằng Nhân Tướng Học Ứng Dụng",
+                    "certificate_description": "Nghiên cứu nhân tướng học ứng dụng, phân tích tính cách và vận mệnh qua khuôn mặt.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-006.png",
+                    "received_date": "2017-09-20 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Bằng cấp được công nhận",
+                    "issued_by": "Viện Nhân Tướng Học Á Đông",
+                    "issued_at": "2017-09-20 00:00:00.000",
+                    "decision_date": "2025-03-05 10:40:00.000",
+                    "created_at": "2025-03-01 11:20:00.000",
+                    "updated_at": "2025-03-05 10:40:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440502",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440502",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-01 11:20:00.000",
+                            "updated_at": "2025-03-01 11:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440501",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "package_title": "Phân Tích Bản Đồ Sao Tình Duyên",
+                    "package_content": "Xem vận tình duyên qua cung hoàng đạo:\n\n💕 Phân tích Venus và Mars\n💕 Xem độ hợp với đối phương\n💕 Dự đoán thời điểm tình duyên tốt\n\nThời gian: 45 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 45,
+                    "price": 379000.0,
+                    "service_fee_amount": 37900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 128,
+                    "dislike_count": 3,
+                    "comment_count": 51,
+                    "created_at": "2025-03-12 10:30:00.000",
+                    "updated_at": "2025-10-18 14:45:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440501",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440501",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-12 10:30:00.000",
+                            "updated_at": "2025-03-12 10:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440502",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440026",
+                    "package_title": "Xem Tướng - Tư Vấn Định Hướng",
+                    "package_content": "Nhân tướng học:\n\n👤 Phân tích tính cách\n👤 Điểm mạnh, điểm yếu\n👤 Định hướng sự nghiệp\n\nThời gian: 40 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 40,
+                    "price": 339000.0,
+                    "service_fee_amount": 33900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 95,
+                    "dislike_count": 2,
+                    "comment_count": 37,
+                    "created_at": "2025-04-08 11:20:00.000",
+                    "updated_at": "2025-09-22 15:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440502",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440502",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-08 11:20:00.000",
+                            "updated_at": "2025-04-08 11:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-02-28 10:20:00.000",
+            "updated_at": "2025-10-25 16:10:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440027",
+            "role": 1,
+            "email": "thayvanhieu@gmail.com",
+            "phone": "+84945678123",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Nguyễn Văn Hiếu",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-007.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-007.png",
+            "profile_description": "Thầy bói chuyên về Tarot, Nhân Tướng và Ngũ Hành với 16 năm kinh nghiệm. Kết hợp nhiều phương pháp để tư vấn toàn diện.",
+            "birth_date": "1978-04-18 11:30:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-01-15 09:10:00.000",
+                "updated_at": "2025-10-30 14:25:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440601",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:15:00.000",
+                    "updated_at": "2025-01-15 09:15:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440602",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:15:00.000",
+                    "updated_at": "2025-01-15 09:15:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440603",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:15:00.000",
+                    "updated_at": "2025-01-15 09:15:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440601",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "certificate_name": "Chứng Chỉ Tarot Master",
+                    "certificate_description": "Bậc thầy về Tarot, đã hoàn thành các khóa đào tạo từ cơ bản đến nâng cao.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-007.png",
+                    "received_date": "2015-06-25 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ Master, uy tín cao",
+                    "issued_by": "Liên Minh Tarot Thế Giới",
+                    "issued_at": "2015-06-25 00:00:00.000",
+                    "decision_date": "2025-01-18 10:30:00.000",
+                    "created_at": "2025-01-16 15:20:00.000",
+                    "updated_at": "2025-01-18 10:30:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440601",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440601",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-16 15:20:00.000",
+                            "updated_at": "2025-01-16 15:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440602",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "certificate_name": "Chứng Chỉ Nhân Tướng Học Chuyên Gia",
+                    "certificate_description": "Chuyên gia nhân tướng với kiến thức sâu rộng về 12 cung vị.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-007.png",
+                    "received_date": "2016-11-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ",
+                    "issued_by": "Trung Tâm Nhân Tướng Việt Nam",
+                    "issued_at": "2016-11-10 00:00:00.000",
+                    "decision_date": "2025-01-20 11:45:00.000",
+                    "created_at": "2025-01-17 14:10:00.000",
+                    "updated_at": "2025-01-20 11:45:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440602",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440602",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-17 14:10:00.000",
+                            "updated_at": "2025-01-17 14:10:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440603",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "certificate_name": "Chứng Chỉ Ngũ Hành Phong Thủy",
+                    "certificate_description": "Nghiên cứu về ngũ hành và ứng dụng trong phong thủy thực tế.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-007.png",
+                    "received_date": "2018-03-08 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được công nhận",
+                    "issued_by": "Học Viện Ngũ Hành Á Châu",
+                    "issued_at": "2018-03-08 00:00:00.000",
+                    "decision_date": "2025-01-22 09:20:00.000",
+                    "created_at": "2025-01-19 10:30:00.000",
+                    "updated_at": "2025-01-22 09:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440603",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440603",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-19 10:30:00.000",
+                            "updated_at": "2025-01-19 10:30:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440601",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440027",
+                    "package_title": "Combo Đặc Biệt: Tarot + Tướng + Phong Thủy",
+                    "package_content": "Gói tư vấn toàn diện:\n\n🎴 Xem Tarot tổng quan\n👤 Phân tích nhân tướng\n🏠 Tư vấn phong thủy cơ bản\n\nThời gian: 75 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 75,
+                    "price": 699000.0,
+                    "service_fee_amount": 69900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 189,
+                    "dislike_count": 5,
+                    "comment_count": 78,
+                    "created_at": "2025-01-25 10:15:00.000",
+                    "updated_at": "2025-10-20 11:40:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440601",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440601",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-25 10:15:00.000",
+                            "updated_at": "2025-01-25 10:15:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440602",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440601",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-25 10:15:00.000",
+                            "updated_at": "2025-01-25 10:15:00.000"
+                        },
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440603",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440601",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-25 10:15:00.000",
+                            "updated_at": "2025-01-25 10:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-01-15 09:10:00.000",
+            "updated_at": "2025-10-30 14:25:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440028",
+            "role": 1,
+            "email": "cothuytrang@gmail.com",
+            "phone": "+84956789012",
+            "gender": "Nữ",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Cô Đỗ Thùy Trang",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-008.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-008.png",
+            "profile_description": "Chuyên gia Tarot trẻ tuổi với 6 năm kinh nghiệm. Phong cách tư vấn hiện đại, dễ gần. Đã tư vấn cho hơn 1200 bạn trẻ.",
+            "birth_date": "1995-09-12 13:20:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440028",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-05-08 11:30:00.000",
+                "updated_at": "2025-11-02 09:15:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440701",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440028",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-05-08 11:35:00.000",
+                    "updated_at": "2025-05-08 11:35:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440701",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440028",
+                    "certificate_name": "Chứng Chỉ Tarot Reader",
+                    "certificate_description": "Hoàn thành khóa đào tạo Tarot Reader, thành thạo các spread cơ bản và nâng cao.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-008.png",
+                    "received_date": "2023-02-18 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ",
+                    "issued_by": "Trường Tarot Hiện Đại",
+                    "issued_at": "2023-02-18 00:00:00.000",
+                    "decision_date": "2025-05-10 14:20:00.000",
+                    "created_at": "2025-05-09 10:15:00.000",
+                    "updated_at": "2025-05-10 14:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440701",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440701",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-09 10:15:00.000",
+                            "updated_at": "2025-05-09 10:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440701",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440028",
+                    "package_title": "Tarot Cho Bạn Trẻ - Tư Vấn Nhanh",
+                    "package_content": "Phiên tư vấn Tarot ngắn gọn:\n\n✨ Giải đáp 1 câu hỏi\n✨ Phù hợp cho bạn trẻ\n✨ Tư vấn nhanh, hiệu quả\n\nThời gian: 20 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 20,
+                    "price": 149000.0,
+                    "service_fee_amount": 14900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 112,
+                    "dislike_count": 3,
+                    "comment_count": 45,
+                    "created_at": "2025-05-15 14:20:00.000",
+                    "updated_at": "2025-10-28 16:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440701",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440701",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-05-15 14:20:00.000",
+                            "updated_at": "2025-05-15 14:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-05-08 11:30:00.000",
+            "updated_at": "2025-11-02 09:15:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440029",
+            "role": 1,
+            "email": "thayhoanglong@gmail.com",
+            "phone": "+84967890123",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Lý Hoàng Long",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-009.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-009.png",
+            "profile_description": "Chuyên gia Cung Hoàng Đạo và Xem Chỉ Tay với 11 năm kinh nghiệm. Tư vấn chi tiết về bản đồ sao và vận mệnh.",
+            "birth_date": "1987-06-05 15:40:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-03-18 10:45:00.000",
+                "updated_at": "2025-10-22 13:50:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440801",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-18 10:50:00.000",
+                    "updated_at": "2025-03-18 10:50:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440802",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-03-18 10:50:00.000",
+                    "updated_at": "2025-03-18 10:50:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440801",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "certificate_name": "Bằng Chiêm Tinh Học Chuyên Sâu",
+                    "certificate_description": "Chuyên sâu về chiêm tinh học, phân tích transit và synastry cho các mối quan hệ.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-009.png",
+                    "received_date": "2020-10-12 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Bằng cấp hợp lệ",
+                    "issued_by": "Viện Chiêm Tinh Học Quốc Tế",
+                    "issued_at": "2020-10-12 00:00:00.000",
+                    "decision_date": "2025-03-20 11:15:00.000",
+                    "created_at": "2025-03-19 09:30:00.000",
+                    "updated_at": "2025-03-20 11:15:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440801",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440801",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-19 09:30:00.000",
+                            "updated_at": "2025-03-19 09:30:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440802",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "certificate_name": "Chứng Chỉ Xem Chỉ Tay Nâng Cao",
+                    "certificate_description": "Khóa học nâng cao về xem chỉ tay, phân tích chi tiết các đường chỉ và vân tay.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-009.png",
+                    "received_date": "2021-04-20 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được phê duyệt",
+                    "issued_by": "Trung Tâm Nghiên Cứu Chỉ Tay Việt Nam",
+                    "issued_at": "2021-04-20 00:00:00.000",
+                    "decision_date": "2025-03-22 10:40:00.000",
+                    "created_at": "2025-03-20 14:25:00.000",
+                    "updated_at": "2025-03-22 10:40:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440802",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440802",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-20 14:25:00.000",
+                            "updated_at": "2025-03-20 14:25:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440801",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "package_title": "Bản Đồ Sao Sự Nghiệp",
+                    "package_content": "Phân tích sự nghiệp qua bản đồ sao:\n\n⭐ Phân tích MC và nhà thứ 10\n⭐ Điểm mạnh nghề nghiệp\n⭐ Thời điểm thăng tiến\n\nThời gian: 50 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 50,
+                    "price": 449000.0,
+                    "service_fee_amount": 44900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 134,
+                    "dislike_count": 4,
+                    "comment_count": 52,
+                    "created_at": "2025-03-28 11:20:00.000",
+                    "updated_at": "2025-10-15 15:40:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440801",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440801",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-28 11:20:00.000",
+                            "updated_at": "2025-03-28 11:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440802",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440029",
+                    "package_title": "Xem Chỉ Tay Chuyên Sâu",
+                    "package_content": "Phân tích chỉ tay chi tiết:\n\n✋ Đọc 5 đường chính\n✋ Phân tích vân tay\n✋ Dự đoán các mốc quan trọng\n\nThời gian: 40 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279286/35bebd17-0147-45ac-a9d1-dc4f4e050546.png",
+                    "duration_minutes": 40,
+                    "price": 269000.0,
+                    "service_fee_amount": 26900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 87,
+                    "dislike_count": 2,
+                    "comment_count": 31,
+                    "created_at": "2025-04-15 10:30:00.000",
+                    "updated_at": "2025-09-28 14:20:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440802",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440802",
+                            "category_id": "4d4d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-04-15 10:30:00.000",
+                            "updated_at": "2025-04-15 10:30:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-03-18 10:45:00.000",
+            "updated_at": "2025-10-22 13:50:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440030",
+            "role": 1,
+            "email": "cokimoanh@gmail.com",
+            "phone": "+84978901234",
+            "gender": "Nữ",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Cô Trịnh Kim Oanh",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-010.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-010.png",
+            "profile_description": "Thạc sĩ Nhân Tướng Học với 15 năm kinh nghiệm. Chuyên phân tích tướng mạo và dự đoán vận mệnh. Đã tư vấn cho hơn 3500 khách hàng.",
+            "birth_date": "1982-03-25 10:30:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-02-10 14:20:00.000",
+                "updated_at": "2025-11-01 16:35:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440901",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-10 14:25:00.000",
+                    "updated_at": "2025-02-10 14:25:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655440902",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-02-10 14:25:00.000",
+                    "updated_at": "2025-02-10 14:25:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440901",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "certificate_name": "Thạc Sĩ Nhân Tướng Học",
+                    "certificate_description": "Bằng thạc sĩ chuyên ngành Nhân Tướng Học, nghiên cứu sâu về tướng mạo và vận mệnh.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-010.png",
+                    "received_date": "2017-08-15 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Bằng cấp cao, được chấp nhận",
+                    "issued_by": "Đại Học Nhân Văn Đông Phương",
+                    "issued_at": "2017-08-15 00:00:00.000",
+                    "decision_date": "2025-02-12 15:30:00.000",
+                    "created_at": "2025-02-11 10:15:00.000",
+                    "updated_at": "2025-02-12 15:30:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440901",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440901",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-11 10:15:00.000",
+                            "updated_at": "2025-02-11 10:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655440902",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "certificate_name": "Chứng Chỉ Phong Thủy và Ngũ Hành",
+                    "certificate_description": "Chuyên sâu về Phong Thủy, Ngũ Hành trong việc phân tích tướng mạo và không gian sống.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-010.png",
+                    "received_date": "2019-11-08 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ được công nhận",
+                    "issued_by": "Viện Phong Thủy Á Đông",
+                    "issued_at": "2019-11-08 00:00:00.000",
+                    "decision_date": "2025-02-14 11:45:00.000",
+                    "created_at": "2025-02-13 09:20:00.000",
+                    "updated_at": "2025-02-14 11:45:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655440902",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655440902",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-13 09:20:00.000",
+                            "updated_at": "2025-02-13 09:20:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440901",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "package_title": "Phân Tích Nhân Tướng Toàn Diện",
+                    "package_content": "Tư vấn nhân tướng học chuyên sâu:\n\n👤 Phân tích tướng mạo\n👤 Đọc vận mệnh từ khuôn mặt\n👤 Tư vấn cải thiện vận khí\n👤 Tặng báo cáo chi tiết\n\nThời gian: 70 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279197/04fc7c14-5e62-4c8e-ab6c-78a89dc47e29.png",
+                    "duration_minutes": 70,
+                    "price": 599000.0,
+                    "service_fee_amount": 59900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 215,
+                    "dislike_count": 5,
+                    "comment_count": 89,
+                    "created_at": "2025-02-20 11:40:00.000",
+                    "updated_at": "2025-10-29 14:55:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440901",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440901",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-20 11:40:00.000",
+                            "updated_at": "2025-02-20 11:40:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440902",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "package_title": "Phong Thủy Nhà Cửa Theo Ngũ Hành",
+                    "package_content": "Tư vấn phong thủy không gian sống:\n\n🏠 Phân tích mệnh chủ nhà\n🏠 Bố trí nội thất theo Ngũ Hành\n🏠 Chọn màu sắc, hướng nhà\n🏠 Gợi ý cải thiện vận khí\n\nThời gian: 60 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279238/84a8e79f-25d8-4b61-ae5f-d31f7fbc4af3.png",
+                    "duration_minutes": 60,
+                    "price": 499000.0,
+                    "service_fee_amount": 49900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 178,
+                    "dislike_count": 3,
+                    "comment_count": 67,
+                    "created_at": "2025-03-05 14:15:00.000",
+                    "updated_at": "2025-10-18 16:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440902",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440902",
+                            "category_id": "3c3d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-05 14:15:00.000",
+                            "updated_at": "2025-03-05 14:15:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655440903",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440030",
+                    "package_title": "Combo VIP: Nhân Tướng + Phong Thủy",
+                    "package_content": "Gói combo toàn diện:\n\n⭐ Phân tích nhân tướng chi tiết\n⭐ Tư vấn phong thủy nhà cửa\n⭐ Báo cáo 30 trang\n⭐ Hỗ trợ sau tư vấn 1 tháng\n\nThời gian: 120 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279197/04fc7c14-5e62-4c8e-ab6c-78a89dc47e29.png",
+                    "duration_minutes": 120,
+                    "price": 899000.0,
+                    "service_fee_amount": 89900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 298,
+                    "dislike_count": 6,
+                    "comment_count": 124,
+                    "created_at": "2025-03-22 10:00:00.000",
+                    "updated_at": "2025-11-03 13:20:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655440903",
+                            "package_id": "880e8400-e29b-41d4-a716-446655440903",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-03-22 10:00:00.000",
+                            "updated_at": "2025-03-22 10:00:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-02-10 14:20:00.000",
+            "updated_at": "2025-11-01 16:35:00.000"
+        },
+        {
+            "user_id": "550e8400-e29b-41d4-a716-446655440031",
+            "role": 1,
+            "email": "thaythanhtung@gmail.com",
+            "phone": "+84989012345",
+            "gender": "Nam",
+            "password_hash": "$2a$10$su2P6OQUjL6n5uW/QHpUtuNSnW64AEd48Iw5eTqAieJbSsDP3oFKu",
+            "full_name": "Thầy Phan Thành Tùng",
+            "avatar_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762322268/avatar-011.png",
+            "cover_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762282708/cover-011.png",
+            "profile_description": "Master Tarot với 18 năm kinh nghiệm quốc tế. Chuyên về Tarot tình yêu và sự nghiệp. Từng là cố vấn tâm linh cho nhiều doanh nghiệp lớn.",
+            "birth_date": "1978-12-10 08:15:00.000",
+            "status": 0,
+            "fcm_token": null,
+            "is_active": true,
+            "customer_profile": null,
+            "seer_profile": {
+                "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                "payment_info": null,
+                "paypal_email": null,
+                "created_at": "2025-01-15 09:30:00.000",
+                "updated_at": "2025-11-04 15:45:00.000"
+            },
+            "seer_speciality": [
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655441001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:35:00.000",
+                    "updated_at": "2025-01-15 09:35:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655441002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:35:00.000",
+                    "updated_at": "2025-01-15 09:35:00.000"
+                },
+                {
+                    "id": "770e8400-e29b-41d4-a716-446655441003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                    "created_at": "2025-01-15 09:35:00.000",
+                    "updated_at": "2025-01-15 09:35:00.000"
+                }
+            ],
+            "certificate": [
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655441001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "certificate_name": "Certified Tarot Master",
+                    "certificate_description": "Chứng chỉ Tarot Master quốc tế, được cấp bởi tổ chức Tarot uy tín nhất thế giới.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-011.png",
+                    "received_date": "2015-06-20 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ quốc tế cao cấp",
+                    "issued_by": "Hiệp Hội Tarot Quốc Tế",
+                    "issued_at": "2015-06-20 00:00:00.000",
+                    "decision_date": "2025-01-17 10:20:00.000",
+                    "created_at": "2025-01-16 14:10:00.000",
+                    "updated_at": "2025-01-17 10:20:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655441001",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655441001",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-16 14:10:00.000",
+                            "updated_at": "2025-01-16 14:10:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655441002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "certificate_name": "Bằng Chuyên Gia Chiêm Tinh Học",
+                    "certificate_description": "Bằng chuyên gia trong lĩnh vực chiêm tinh học và cung hoàng đạo, học tại Mỹ.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-011.png",
+                    "received_date": "2016-09-14 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Được công nhận",
+                    "issued_by": "Học Viện Chiêm Tinh Học California",
+                    "issued_at": "2016-09-14 00:00:00.000",
+                    "decision_date": "2025-01-19 11:35:00.000",
+                    "created_at": "2025-01-18 15:25:00.000",
+                    "updated_at": "2025-01-19 11:35:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655441002",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655441002",
+                            "category_id": "1a1d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-18 15:25:00.000",
+                            "updated_at": "2025-01-18 15:25:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655441003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "certificate_name": "Chứng Chỉ Nhân Tướng Học Cao Cấp",
+                    "certificate_description": "Khóa học nhân tướng học chuyên sâu, kết hợp Đông - Tây.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-011.png",
+                    "received_date": "2018-03-22 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 1,
+                    "decision_reason": "Chứng chỉ hợp lệ",
+                    "issued_by": "Viện Nhân Tướng Học Á Châu",
+                    "issued_at": "2018-03-22 00:00:00.000",
+                    "decision_date": "2025-01-21 09:50:00.000",
+                    "created_at": "2025-01-20 13:40:00.000",
+                    "updated_at": "2025-01-21 09:50:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655441003",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655441003",
+                            "category_id": "2b2d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-20 13:40:00.000",
+                            "updated_at": "2025-01-20 13:40:00.000"
+                        }
+                    ]
+                },
+                {
+                    "certificate_id": "cc0e8400-e29b-41d4-a716-446655441004",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "certificate_name": "Chứng Chỉ Coaching Tâm Linh",
+                    "certificate_description": "Khóa học huấn luyện và tư vấn tâm linh cho doanh nghiệp.",
+                    "certificate_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762328450/cert-011.png",
+                    "received_date": "2022-05-10 00:00:00.000",
+                    "expiration_date": null,
+                    "status": 0,
+                    "decision_reason": null,
+                    "issued_by": "Trung Tâm Coaching Việt Nam",
+                    "issued_at": "2022-05-10 00:00:00.000",
+                    "decision_date": null,
+                    "created_at": "2025-01-22 10:15:00.000",
+                    "updated_at": "2025-01-22 10:15:00.000",
+                    "certificate_category": [
+                        {
+                            "id": "ccc0e840-e29b-41d4-a716-446655441004",
+                            "certificate_id": "cc0e8400-e29b-41d4-a716-446655441004",
+                            "category_id": "6f6d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-22 10:15:00.000",
+                            "updated_at": "2025-01-22 10:15:00.000"
+                        }
+                    ]
+                }
+            ],
+            "service_package": [
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655441001",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "package_title": "Tarot Tình Yêu Chuyên Sâu",
+                    "package_content": "Dịch vụ Tarot cao cấp về tình yêu:\n\n❤️ Phân tích mối quan hệ hiện tại\n❤️ Dự đoán tương lai tình cảm\n❤️ Tư vấn khắc phục khó khăn\n❤️ Hỗ trợ tâm lý\n\nThời gian: 60 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 60,
+                    "price": 549000.0,
+                    "service_fee_amount": 54900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 412,
+                    "dislike_count": 8,
+                    "comment_count": 178,
+                    "created_at": "2025-01-28 11:20:00.000",
+                    "updated_at": "2025-11-04 14:30:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655441001",
+                            "package_id": "880e8400-e29b-41d4-a716-446655441001",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-01-28 11:20:00.000",
+                            "updated_at": "2025-01-28 11:20:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655441002",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "package_title": "Tarot Sự Nghiệp VIP",
+                    "package_content": "Dịch vụ Tarot VIP cho sự nghiệp:\n\n💼 Phân tích cơ hội thăng tiến\n💼 Tư vấn quyết định quan trọng\n💼 Dự đoán xu hướng kinh doanh\n💼 Coaching 1-1\n\nThời gian: 90 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 90,
+                    "price": 799000.0,
+                    "service_fee_amount": 79900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 356,
+                    "dislike_count": 5,
+                    "comment_count": 142,
+                    "created_at": "2025-02-08 14:40:00.000",
+                    "updated_at": "2025-10-30 16:20:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655441002",
+                            "package_id": "880e8400-e29b-41d4-a716-446655441002",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-08 14:40:00.000",
+                            "updated_at": "2025-02-08 14:40:00.000"
+                        }
+                    ]
+                },
+                {
+                    "package_id": "880e8400-e29b-41d4-a716-446655441003",
+                    "seer_id": "550e8400-e29b-41d4-a716-446655440031",
+                    "package_title": "Combo Master: Tarot + Chiêm Tinh + Nhân Tướng",
+                    "package_content": "Gói combo đa chiều:\n\n🌟 Tarot dự đoán tương lai\n🌟 Phân tích bản đồ sao\n🌟 Đọc nhân tướng học\n🌟 Báo cáo 40 trang\n🌟 Tư vấn theo dõi 2 tháng\n\nThời gian: 150 phút",
+                    "image_url": "https://res.cloudinary.com/dzpv3mfjt/image/upload/v1762279025/5ae4fab0-5b8f-4ca9-bc38-474107f8b2bd.png",
+                    "duration_minutes": 150,
+                    "price": 1499000.0,
+                    "service_fee_amount": 149900.0,
+                    "commission_rate": 0.10,
+                    "status": 0,
+                    "rejection_reason": null,
+                    "like_count": 523,
+                    "dislike_count": 12,
+                    "comment_count": 245,
+                    "created_at": "2025-02-25 10:00:00.000",
+                    "updated_at": "2025-11-05 11:45:00.000",
+                    "package_category": [
+                        {
+                            "id": "990e8400-e29b-41d4-a716-446655441003",
+                            "package_id": "880e8400-e29b-41d4-a716-446655441003",
+                            "category_id": "5e5d3003-cad8-4805-8e04-2170d12e5bcf",
+                            "created_at": "2025-02-25 10:00:00.000",
+                            "updated_at": "2025-02-25 10:00:00.000"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2025-01-15 09:30:00.000",
+            "updated_at": "2025-11-04 15:45:00.000"
+        }
+    ]
+}
